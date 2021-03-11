@@ -5,18 +5,18 @@ Project #1 - Tribute Page
 2. Tributepage.css
 
 Project #2 - Surveyform
-4. surveyform.html
-5. surveyform.css
+3. surveyform.html
+4. surveyform.css
 
 Project #3 - Product Landing page
-7. product-landing.html
-8. product-landing.css
+5. product-landing.html
+6. product-landing.css
 
 Project #4 - Technical Documentation Page
-9. documentation.html
-10. documentation.css
+7. documentation.html
+8. documentation.css
 
 Project #5 - Personal Portfolio page
-11. portfolio.html
-12. portfolio.css
+9. portfolio.html
+10. portfolio.css
 
