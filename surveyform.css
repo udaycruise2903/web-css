@@ -1,0 +1,106 @@
+body {
+    border-style: solid;
+    border-color: ;
+    border-width: 5px;
+    align-self: center;
+    padding: 0px 0px 20px 20px;
+    margin:10px 20px 10px 20px;
+    box-sizing: border-box;
+    min-width: 220px;
+    display: flex;
+    flex: 1 1 auto; 
+    background-image: url("https://www.teahub.io/photos/full/43-434733_1082x1920-plain-white-background-wallpaper-vertical-blue-and.jpg");  
+    background-color: #91C499; /* Used if the image is unavailable */
+    background: ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    margin: auto;
+     
+    
+   
+    
+  }
+}
+#title {
+}
+
+.desc, .name, .email, .age, .colors, .online_games, .sports,  .comments {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px -8px 8px -8px ;
+    
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    height: auto;
+   
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex: 1 1 auto;  
+    background-color: #F2E9DC;
+}
+
+.hobbies {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px -8px 8px -8px ;
+    
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    height: auto;
+   
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2E9DC;
+}
+
+.rt1, .rt2, .rt3, .rt4, {
+    border-style: none;
+    border-color: black;
+    background-color: aqua;
+    border-width: 5px;
+    align-self: center;
+    padding: 5px 5px 5px 5px;
+    margin:0px 5px 0px 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+  
+     
+}
+
+
+#survey-form {}
+
+#name {}
+
+#email {}
+
+#number {}
+
+#textarea {}
+
+#submit {
+    background-color: #ffe057;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    padding: 15px;
+    margin: 0px 70px 0px 80px;
+}
+#reset {
+    background-color: #ffe057;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    padding: 15px;
+}

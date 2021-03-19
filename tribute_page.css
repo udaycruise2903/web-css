@@ -1,0 +1,86 @@
+body {
+     background-image: #FFFBFA; 	
+     font-family: 'sans-serif'; 
+}
+main {
+    
+}
+.header {
+     position: fixed;
+     background-color:  #49C6E5;
+     text-align: center; 
+     padding: 20px;
+     margin: -10px;
+     width: 100%;
+     height: auto;
+
+
+}
+#title {
+    float: center; 
+}
+#img-div {
+    float: center;
+
+     
+}
+
+#image {
+    border-color: #00BD9D;
+    border-width:5px;
+    border-style: solid;
+    float: center;
+    
+   
+    
+    
+}
+ 
+
+#img-caption {
+    
+
+}
+#tribute-info {} 
+.card {
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     padding: 2px 16px;
+     width: 100%;
+     height: auto;
+     
+}
+
+.card:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+#tribute-link {
+     text-decoration: none;
+}
+
+.source_button {
+     background-color: lightseagreen 
+     border: none;
+     color: black;
+     padding: 10px;
+     text-align: center;
+     font-size: 16px;
+     margin: 4px 2px;
+     transition-duration: 0.4s;
+     
+}
+
+.source_button:hover {
+     background-color: yellow;
+     color: white;
+}
+
+.footer {
+     background-color:  #49C6E5;
+     text-align: center; 
+     padding: 20px;
+     margin: -10px;
+}

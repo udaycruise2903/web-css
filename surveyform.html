@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<head>
+		<link rel="stylesheet" type="text/css" href="surveyform.css"> 
+		 
+	</head>
+	<body>
+		<main>
+		<h1 id="title">Survey Form</h1>
+		<div class="desc"><p id="description">1. Fill in the form.<br>
+			2. Provide correct information for better results.
+		</p></div><br><br>
+		
+		<form id="survey-form">
+			<div class="name">
+			<label id="name-label">Name</label>
+			<input id="name" type="text" placeholder="type your name" required><br><br>
+		</div>
+			<div class="email">
+			<label id="email-label">Email</label>
+			<input id="email" type="email" placeholder="type your email" required><br><br>
+		</div>
+			<div class="age">
+			<label id="number-label">Age</label>		
+			<input id="number" type="number" size="6" min="16"max="90"  placeholder="type your age" required><br><br>
+		</div>
+			<div class="colors">
+			<label for="colors">Choose a color </label>
+			<select id="dropdown" name="colors">
+				<option value="black">Black</option>
+				<option value="pink">Pink</option>
+				<option value="blue">Blue</option>
+				<option value="orange">Orange</option>
+				<option value="white">White</option>
+				<option value="yellow">Yellow</option>
+				<option value="red">Red</option>
+				<option value="green">Green</option>
+			</select><br><br>
+		</div>
+			<div class="online_games">
+				<div class="rt1">Type of games you play</div><hr><input id="online games" type="radio" name="games" value="Online games"><label for="online games">Online Games
+			</label>
+			
+				<input id="board games" type="radio" name="games" value="Board games"><label for="board games">Board Games
+			</label>
+			
+				<input id="team games" type="radio" name="games" value="Team games"><label for="team games">Team games
+			</label><br><br>
+		</div>
+			<div class="sports">
+				<div class="rt2">Type of sports you play</div><hr><input id="cricket" type="radio" name="sports" value="Cricket"><label for="cricket">Cricket
+			</label>
+			
+				<input id="Football" type="radio" name="sports" value="Cricket"><label for="Football">Football
+			</label>
+			
+				<input id="soccer" type="radio" name="sports" value="Soccer"><label for="soccer">Soccer
+			</label><br><br>
+		</div>
+			<div class="hobbies">
+				<div class="rt3">Hobbies</div><hr><br><br>
+			<input id="dancing" type="checkbox" name="hobbies" value="Dancing"><label for="dancing">Dancing</label>
+			<input id="singing" type="checkbox" name="hobbies" value="Singing"><label for="singing">Singing</label><br>
+			<input id="philately" type="checkbox" name="hobbies" value="Philately"><label for="philately">Philately</label>
+			<input id="drawing" type="checkbox" name="hobbies" value="Drawing"><label for="drawing">Drawing</label><br><br>
+		</div>
+			<div class="comments">
+				<div class="rt4">Tell us more about yourself</div><br><br>
+			<textarea id="textarea" rows="4" cols="30">Enter your comments here...</textarea>
+			<!--<label for="textarea"></label>--><br><br>
+		</div>
+			<button id="submit"type="submit" value="Submit">Submit</button>
+			<button id="reset" type="reset" value="Reset">Reset</button>
+
+		</form>
+	</main>
+	</body>
+</html>

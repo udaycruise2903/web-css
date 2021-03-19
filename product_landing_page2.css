@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+Navigation Bar and Logo Menu
+*/
+#top-header {
+    display: flex;
+    margin: -50px 0px 20px 0px;
+    background-color: rgb(131, 106, 106);
+    position: fixed;
+    width: 100%;
+}
+#logo {
+    justify-content: start;
+    margin-right: auto;
+}
+#header-img {
+    height: 10vh;
+     
+}
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 20px 0px 0px;
+    
+}
+.nav-link {
+    text-decoration: none;
+    /*background-color: #f1f1;*/
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+.nav-link:hover { 
+    color: lightpink;
+}
+
+ 
+
+/*
+End of navigation Menu code
+*/
+
+/*CSS of video-container*/
+.video-container {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:auto;
+}
+/* Backgorund image for Form*/
+.form-img {
+    margin: 20px auto 20px auto;
+}
+
+/*form-container has email input*/
+.form-container {
+    display: block;
+    border: solid 2px black;
+    padding: 20px 50px;
+    background-color: lightgreen;
+    margin: auto;
+    width: 50%;
+    background-image: url("https://i.pinimg.com/originals/3a/48/9f/3a489f9bbda8ba008d60d07d88232560.jpg");
+
+}
+
+/*clicking Product jumps to product cards */
+/*card*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+/*creating three unequal columns that
+float next to each other*/
+.card {
+    width: 33.33%;
+}
+
+
+ /*three columns stack on top of each other */
+@media screen and (max-width: 600px) {
+    .card {
+      width: 100%;
+    }
+  }
+
+@media screen only and (max-width: 1200px) {
+    
+}
+
+/*footer*/
+.footer {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+    bottom: 0;
+}
