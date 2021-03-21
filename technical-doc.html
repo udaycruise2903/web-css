@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Technical Page</title>
+        <link rel="stylesheet" href="technical-doc.css">
+        <link rel="stylesheet" href="technical-doc.js">
+    </head>
+    <body>
+        <nav id = "navbar">
+            <header>Python Documentation</header>
+            <ul>
+                <li>
+                 
+                <a class="nav-link" href="#Introduction">Introduction</a>
+                </li>
+                <li>
+                     
+                    <a class="nav-link" href="#How_to_run_Python_Program">How to run Python Program</a>
+                </li>
+                <li>
+                     
+                    <a class="nav-link" href="#Python2_vs_Python3">Python2 vs Python3</a>
+                </li>
+                <li>
+                     
+                    <a class="nav-link" href="#Basics">Basics</a>
+                </li>
+                <li>
+                     
+                    <a class="nav-link" href="#Data_Types">Data Types</a>
+                </li>
+                <li>
+                     
+                    <a class="nav-link" href="#Operators">Operators</a>
+                </li>
+                <li>
+                     
+                    <a class="nav-link" href="#Ternary_Operator">Ternary Operator</a>
+                </li>
+                <li>
+                     
+                    <a class="nav-link" href="#Strings">Strings</a>
+                </li>
+                <li>
+                     
+                    <a class="nav-link" href="#Booleans">Booleans</a>
+                </li>
+                <li>
+                     
+                    <a class="nav-link" href="#Numbers">Numbers</a>
+                </li>
+                <li>
+                     
+                    <a class="nav-link" href="#Constants">Constants</a>
+                </li>
+                <li>
+                     
+                    <a class="nav-link" href="#Enums">Enums</a>
+                </li>
+                <li>
+                     
+                    <a class="nav-link" href="#Reference">Reference</a>
+                </li>
+            </ul>
+        </nav>
+    <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header>Introduction</header>
+            <article>
+                <p>Python excels in a wide variety of scenarios – Shell scripting, task automation, 
+                    and Web development are just some basic examples.</p>
+                <p>Python is the language of choice for data analysis and machine learning, 
+                    but it can also adapt to create games and work with embedded devices.</p>
+                <p>Python is a high-level programming language suitable for beginners</p>
+                <p>Python is an interpreted language that does not have an intermediate 
+                    compilation phase like a compiled language, for example C or Java.</p>
+                <p>Python supports a wide variety of different programming paradigms, 
+                    including procedural programming, object oriented programming, and 
+                    functional programming.</p>
+            </article>
+        </section>
+        <section id="How_to_run_Python_Program" class="main-section">
+            <header>How to run Python Program</header>
+            <article>
+                <p>For Linux, Ubuntu OS</p>
+                <p>Open the terminal and type <code>python3</code>, You will
+                see python in interactive mode</p>
+                <p><code>>>></code> is the python prompt. You can type python code here.
+                and press the <code>enter</code> key to run it.</p>
+                <p>For example try defining a new variable using<br>
+                <code>name = "Flavio"</code><br> and then print its value using 
+                <code>print():</code><br><code>print(name)</code></p>
+                <p>Type <code>quit()</code> to exit python interactive mode in terminal.</p>
+            </article>
+        </section>
+        <section id="Python2_vs_Python3" class="main-section">
+            <header>Python2 vs Python3</header>
+            <article>
+                <p>Python 3 was introduced in 2008, and it's been in development 
+                    as the main Python version, while Python 2 continued being 
+                    maintained with bug fixes and security patches until early 2020.</p>
+                <p>Many programs are still written using Python 2, and organizations 
+                    still actively work on those, because the migration to Python 3 is 
+                    not trivial and it would require a lot of work to upgrade those programs.
+                     And large and important migrations always introduce new bugs.</p>
+                <p>Python3 is recommended to write new code.</p>
+            </article>
+        </section>
+        <section id="Basics" class="main-section">
+            <header>Basics</header>
+            <article>
+                <h5>Variables</h5>
+                <p>We can create a new Python variable by assigning a value to 
+                    a label, using the <code>=</code> assignment operator.</p>
+                <p>In this example we assign a string with the value "Roger" to 
+                    the <code>name</code> label:<br>
+                <code>name = "Roger"</code></p>
+                <p>Here's an example with a number:<br><code>age = 8
+                </code></p>
+                <p>A variable name can be composed of characters, numbers, 
+                    and the <code>_</code> underscore character. It can't start with a 
+                    number. These are all valid variable names:<br>
+                    <code>
+                        name1<br>
+                        AGE<br>
+                        aGE<br>
+                        a11111<br>
+                        my_name<br>
+                        _name</code>
+                </p>
+                <p>These are invalid variable names:<br>
+                <code>
+                    123<br>
+                    test!<br>
+                    name%
+                    </code></p>
+
+            </article>
+        </section>
+        <section id="Data_Types" class="main-section">
+            <header>Data Types</header>
+            <article>
+                <p>If you create the name variable assigning it the value 
+                    "Roger", automatically this variable now represents a 
+                    String data type.<br><code>name = "Roger"
+                    </code> 
+                </p>
+                <p>You can check the type of a variable by using the <code>type()</code>
+                    function, passing the variable as an argument, and then 
+                    comparing the result to <code>str:</code><br>
+                <code>
+                    name = "Roger"<br>
+                    type(name) == str #True
+                </code>
+            </p>
+
+
+            </article>
+        </section>
+        <section id="Operators" class="main-section">
+            <header>Operators</header>
+            <article>
+                <p>We can divide operators based on the kind of operation they perform:</p>
+                <ul>
+                <li>assignment operator</li>
+                <p>The assignment operator is used to assign a value to a variable:
+                    <br>
+                <code>age = 0</code></p>
+                <li>arithmetic operators</li>
+                <p>Python has a number of arithmetic operators: 
+                    +, -, *, /(division), % (remainder), ** (exponentiation) and // 
+                    (floor division):<br>
+                    <code>1 + 1 #2<br>
+                        2 - 1 #1<br>
+                        2 * 2 #4<br>
+                        4 / 2 #2<br>
+                        4 % 3 #1<br>
+                        4 ** 2 #16<br>
+                        4 // 2 #2<br>
+                    </code></p>
+                <li>comparison operators</li>
+                 <p>Python defines a few comparison operators:
+                    <ul>
+                        <li>==</li>
+                        <li>!=</li>
+                        <li>></li>
+                        <li><</li>
+                        <li>>=</li>
+                        <li><=</li>
+                    </ul>
+                </p>
+                <li>logical operators</li>
+                <p>Python gives us the following boolean operators:</p>
+                <ul>
+                    <li>not</li>
+                    <li>and</li>
+                    <li>or</li>
+                </ul>
+                <br>
+                <li>bitwise operators</li>
+                <p>Some operators are used to work on bits and binary numbers:</p>
+                <ul>
+                    <li>& performs binary AND</li>
+                    <li>| performs binary OR</li>
+                    <li>^ performs a binary XOR operation</li>
+                    <li>~ performs a binary NOT operation</li>
+                    <li><< shift left operation</li>
+                    <li>>> shift right operation</li>
+                </ul>
+                </ul>
+            </article>
+        </section>
+        <section id="Ternary_Operator" class="main-section">
+            <header>Ternary Operator</header>
+            <article>
+              <p>The ternary operator in Python allows you to 
+                  quickly define a conditional.</p> 
+            <p>Let's say you have a function that compares an age 
+                variable to the 18 value, and returns True or False 
+                depending on the result.<br>Instead of writing:<br><br>
+            <code>
+                def is_adult(age):
+                if age > 18:<br>
+                return True<br>
+                else:<br>
+                return False<br>
+            </code><br></p>
+            <p>You can implement it with the 
+                ternary operator in this way:<br><br>
+                <code>
+                    def is_adult(age):<br>
+                        return True if age > 18 else False<br>
+                </code>
+        </p> 
+            </article>
+        </section>
+        <section id="Strings" class="main-section">
+            <header>Strings</header>
+            <article>
+                <p>A string in Python is a series of characters enclosed in quotes
+                    or double quotes:<br><code>
+                        "Roger"<br>
+                        'Roger'<br>
+                    </code><br>
+                    You can assign a string value to a variable:
+                <code>
+                    name = "Roger"
+                </code></p>
+            </article>
+        </section>
+        <section id="Booleans" class="main-section">
+            <header>Booleans</header>
+            <article>
+               <p>Python provides the bool type, which can have two values: True and False 
+                (capitalized).<br><br>
+                Booleans are especially useful with conditional control structures like if 
+                statements:<br><br>
+                When evaluating a value for True or False, if 
+                the value is not a bool we have some rules 
+                depending on the type we're checking:<br><br></p>
+                <ul>
+                    <li>numbers are always True except for the number 0</li>
+                    <li>strings are False only when empty</li>
+                    <li>lists, tuples, sets, and dictionaries are False only when empty</li>
+                </ul> 
+            </article>
+        </section>
+        <section id="Numbers" class="main-section">
+            <header>Numbers</header>
+            <article>
+                <p>Numbers in Python can be of 3 types: int, float and complex.</p>
+
+            </article>
+        </section>
+        <section id="Constants" class="main-section">
+            <header>Constants</header>
+            <article>
+                <p>Python has no way to enforce that a variable should be a constant.<br><br>
+                The nearest you can get is to use an enum:<br><br>
+                <code>
+                    class Constants(Enum):<br>
+                    WIDTH = 1024<br>
+                    HEIGHT = 256<br>             
+                </code>
+                </p>
+            </article>
+        </section>
+        <section id="Enums" class="main-section">
+            <header>Enums</header>
+            <article>
+                <p>Enums are readable names that are bound to a constant value.<br><br>
+                    To use enums, import Enum from the enum standard library module:<br><br>
+                <code>
+                    from enum import Enum<br> 
+                </code><br>Then you can initialize a new enum in this way:<br><br>
+                <code>
+                    class State(Enum):<br>
+                        INACTIVE = 0<br>
+                        ACTIVE = 1<br>
+                </code>
+            </p>
+            </article>
+        </section>
+        <section id="Reference" class="main-section">
+            <header>Reference</header>
+            <article>
+                <ul>
+                    <li>All the documentation in this page is taken from 
+                        <a href="https://www.freecodecamp.org/news/the-python-handbook/#introductiontopython">Freecodecamp Python Handbook</a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+    </main>
+    </body>
+</html>
